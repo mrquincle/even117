@@ -8,7 +8,10 @@
 		
 		<style>
 		body {
-		padding-top:60px;
+			padding-top:60px;
+		}
+		.navbar {
+		    margin-bottom: 0 !important;
 		}
 		</style>
 		<link rel='stylesheet' href='/css/bootstrap-responsive.css'>
@@ -16,6 +19,7 @@
 	    <!--[if lt IE 9]>
 	      <script src="/js/html5shiv.js"></script>
 	    <![endif]-->
+	    <link rel='stylesheet' href='/css/website.css' />
 	</head>
   <body>
 
@@ -38,7 +42,15 @@
         </div>
       </div>
     </div>
-
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>Even117</h1>
+    <p>Een geweldig app om mensen bij elkaar te brengen.</p>
+    <p>
+      <a href="assets/bootstrap.zip" class="btn btn-primary btn-large" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 2.3.2']);">Download nu de app</a>
+    </p>
+  </div>
+</div>	
     <div class="container">
 	<%- body %>
     </div> <!-- /container -->
