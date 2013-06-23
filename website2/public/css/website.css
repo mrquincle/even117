@@ -10,5 +10,13 @@
     position: relative;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-	height: 500px;
+	height: 400px;
+}
+
+@media (max-width: 767px) {
+.jumbotron {
+
+margin-right: -20px;
+margin-left: -20px;
+}
 }
