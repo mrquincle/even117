@@ -1,0 +1,23 @@
+"Window": {
+	backgroundColor:"white"
+},
+".header": {
+        top: "0dp",
+        color: "#a00",
+        font: {
+                fontSize: "24dp",
+                fontWeight: "normal"
+        }
+},
+"#l":{
+	bottom:20,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color:"#999"
+},
+"#imageView":{
+	image:"/images/apple_logo.jpg",
+	width:96,
+	height:96,
+	top:130
+}

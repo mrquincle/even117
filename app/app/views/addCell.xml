@@ -1,0 +1,6 @@
+<Alloy>
+        <View class="addCell">
+                <TextField id="textField" hintText="L('cell_grandchild')" />
+                <Button id="button" title="+" />
+        </View>
+</Alloy>
